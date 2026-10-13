@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Harshika Studio & Printers - Photography, video mixing, album design, advertising and printing services in Mungeli, Chhattisgarh.">
+  <title>Harshika Studio &amp; Printers | Mungeli</title>
+  <style>
+    :root{--gold:#f6c453;--gold2:#d99b19;--black:#090909;--panel:#151515;--muted:#c7c2b6;--white:#fff}
+    *{box-sizing:border-box;margin:0;padding:0}
+    html{scroll-behavior:smooth}
+    body{font-family:Arial,Helvetica,sans-serif;background:var(--black);color:var(--white);line-height:1.6}
+    a{color:inherit;text-decoration:none}
+    .wrap{width:min(1120px,92%);margin:auto}
+    header{position:sticky;top:0;z-index:10;background:rgba(7,7,7,.96);border-bottom:1px solid #3a2c10;backdrop-filter:blur(10px)}
+    .nav{display:flex;align-items:center;justify-content:space-between;gap:18px;padding:15px 0;flex-wrap:wrap}
+    .brand{font-size:1.05rem;font-weight:800;color:var(--gold);letter-spacing:.3px}
+    .brand small{display:block;color:#eee;font-size:.72rem;font-weight:500;letter-spacing:2px}
+    nav{display:flex;gap:17px;flex-wrap:wrap;font-size:.9rem;color:#eee}
+    nav a:hover{color:var(--gold)}
+    .hero{padding:82px 0 70px;background:radial-gradient(ellipse at 80% 20%,#49340f 0,transparent 38%),linear-gradient(135deg,#080808,#17130a 60%,#080808);text-align:center}
+    .eyebrow{display:inline-block;border:1px solid #8f6b20;color:var(--gold);padding:6px 13px;border-radius:30px;font-size:.8rem;letter-spacing:1px;margin-bottom:18px}
+    h1{font-size:clamp(2.2rem,6vw,4.4rem);line-height:1.08;margin-bottom:18px}
+    h1 span,.gold{color:var(--gold)}
+    .hero p{max-width:700px;margin:0 auto 26px;color:#ddd;font-size:1.08rem}
+    .actions{display:flex;justify-content:center;gap:12px;flex-wrap:wrap}
+    .btn{display:inline-block;padding:12px 20px;border-radius:7px;font-weight:700;border:1px solid var(--gold);transition:.2s}
+    .btn.primary{background:var(--gold);color:#15110a}.btn:hover{transform:translateY(-2px);filter:brightness(1.08)}
+    section{padding:62px 0}
+    .section-head{text-align:center;margin-bottom:30px}
+    .section-head h2{font-size:clamp(1.7rem,4vw,2.5rem);margin-bottom:8px}
+    .section-head p{color:var(--muted)}
+    .grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
+    .card{background:linear-gradient(145deg,#191919,#101010);border:1px solid #302817;border-radius:13px;padding:24px}
+    .card .icon{font-size:1.8rem;margin-bottom:10px}
+    .card h3{color:var(--gold);margin-bottom:8px;font-size:1.15rem}
+    .card p{color:var(--muted);font-size:.95rem}
+    .about{background:#101010}
+    .about-inner{display:grid;grid-template-columns:1.1fr .9fr;gap:30px;align-items:center}
+    .about h2{font-size:2rem;margin-bottom:12px}.about p{color:var(--muted);margin-bottom:12px}
+    .highlight{border:1px solid #5e4718;background:linear-gradient(135deg,#1e180b,#111);border-radius:14px;padding:25px}
+    .highlight li{list-style:none;padding:9px 0;border-bottom:1px solid #302817}.highlight li:last-child{border:0}
+    .price-list{max-width:760px;margin:auto;border:1px solid #3c3018;border-radius:12px;overflow:hidden}
+    .price-row{display:flex;justify-content:space-between;gap:18px;padding:15px 20px;background:#141414;border-bottom:1px solid #302817}
+    .price-row:nth-child(even){background:#1b1b1b}.price-row:last-child{border:0}.price{color:var(--gold);font-weight:800;white-space:nowrap}
+    .gallery-note{text-align:center;border:1px dashed #72551a;border-radius:12px;padding:30px;color:var(--muted)}
+    .contact{background:linear-gradient(135deg,#1a1408,#0b0b0b)}
+    .contact-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:15px;margin:24px 0}
+    .contact-box{padding:18px;background:#111;border:1px solid #3b2d12;border-radius:10px;text-align:center}
+    .contact-box strong{display:block;color:var(--gold);margin-bottom:5px}
+    footer{padding:22px 0;text-align:center;color:#aaa;border-top:1px solid #302817;font-size:.88rem}
+    .whatsapp{position:fixed;right:18px;bottom:18px;z-index:20;background:#20c763;color:#07170b;padding:13px 17px;border-radius:40px;font-weight:800;box-shadow:0 6px 25px #0009}
+    @media(max-width:760px){.grid{grid-template-columns:1fr 1fr}.about-inner{grid-template-columns:1fr}.contact-grid{grid-template-columns:1fr}nav{gap:10px}.hero{padding:60px 0}}
+    @media(max-width:480px){.grid{grid-template-columns:1fr}.nav{justify-content:center;text-align:center}nav{justify-content:center}.price-row{padding:13px 14px;font-size:.93rem}}
+  </style>
+</head>
+<body>
+<header>
+  <div class="wrap nav">
+    <a class="brand" href="#home">HARSHIKA STUDIO &amp; PRINTERS<small>MUN G E L I · CHHATTISGARH</small></a>
+    <nav aria-label="Main navigation">
+      <a href="#home">Home</a><a href="#services">Services</a><a href="#about">About</a><a href="#prices">Price List</a><a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+<main>
+  <section class="hero" id="home">
+    <div class="wrap">
+      <div class="eyebrow">CREATIVE • PHOTO • VIDEO • PRINT</div>
+      <h1>Harshika Studio <span>&amp; Printers</span></h1>
+      <p>आपके हर खास पल और हर बिज़नेस की पहचान के लिए — Photography, Video Mixing, Album Design, Advertising और Printing Services एक ही जगह।</p>
+      <div class="actions"><a class="btn primary" href="https://wa.me/918878320078" target="_blank" rel="noopener">WhatsApp पर संपर्क करें</a><a class="btn" href="#services">हमारी सेवाएँ देखें</a></div>
+    </div>
+  </section>
+
+  <section id="services">
+    <div class="wrap">
+      <div class="section-head"><h2>हमारी <span class="gold">Services</span></h2><p>आपकी ज़रूरत के अनुसार क्रिएटिव और प्रिंटिंग समाधान</p></div>
+      <div class="grid">
+        <article class="card"><div class="icon">📸</div><h3>Photography &amp; Videography</h3><p>शादी, प्री-वेडिंग, बर्थडे, इवेंट और खास पलों की शूटिंग।</p></article>
+        <article class="card"><div class="icon">🎬</div><h3>Full HD Video Mixing</h3><p>Wedding video, highlights, cinematic edits और event video mixing।</p></article>
+        <article class="card"><div class="icon">📔</div><h3>Album Design</h3><p>शादी और अन्य यादगार पलों के लिए आकर्षक फोटो एल्बम डिज़ाइन।</p></article>
+        <article class="card"><div class="icon">📢</div><h3>Advertising &amp; Design</h3><p>Shop advertisement, brand shoot, social media post और promotional reels।</p></article>
+        <article class="card"><div class="icon">🖨️</div><h3>Printing &amp; Photocopy</h3><p>कलर प्रिंट, PDF प्रिंटिंग और सिंगल/डबल साइड फोटोकॉपी।</p></article>
+        <article class="card"><div class="icon">🪧</div><h3>Flex &amp; Glow Sign</h3><p>Flex banner, LED board और दुकान के लिए glow sign board डिज़ाइन।</p></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <div class="wrap about-inner">
+      <div><div class="eyebrow">ABOUT OUR STUDIO</div><h2>आपके काम में <span class="gold">क्रिएटिविटी</span> और क्वालिटी</h2><p>Harshika Studio &amp; Printers में हमारा उद्देश्य है कि आपको फोटो, वीडियो, डिज़ाइन, विज्ञापन और प्रिंटिंग से जुड़ी सेवाएँ एक ही जगह मिलें।</p><p>अपने काम की जानकारी और कीमत जानने के लिए हमें WhatsApp पर संदेश भेजें।</p><a class="btn primary" href="https://wa.me/917225921909" target="_blank" rel="noopener">अभी पूछताछ करें</a></div>
+      <div class="highlight"><h3 class="gold">हमें क्यों चुनें?</h3><ul><li>✓ क्रिएटिव डिज़ाइन और वीडियो एडिटिंग</li><li>✓ फोटो, वीडियो और प्रिंटिंग सेवाएँ</li><li>✓ आपके बजट के अनुसार काम</li><li>✓ सीधे WhatsApp से संपर्क</li></ul></div>
+    </div>
+  </section>
+
+  <section id="prices">
+    <div class="wrap"><div class="section-head"><h2>Basic <span class="gold">Price List</span></h2><p>नीचे दी गई कीमतें बदल सकती हैं; बड़े काम की कीमत पहले पूछ लें।</p></div>
+      <div class="price-list">
+        <div class="price-row"><span>Photocopy — Single Side</span><span class="price">₹3</span></div>
+        <div class="price-row"><span>Photocopy — Double Side</span><span class="price">₹5</span></div>
+        <div class="price-row"><span>Colour Print</span><span class="price">₹10 से</span></div>
+        <div class="price-row"><span>PDF Printing</span><span class="price">₹10 से</span></div>
+        <div class="price-row"><span>Album Design</span><span class="price">₹35 / शीट से</span></div>
+        <div class="price-row"><span>Full HD Video Mixing</span><span class="price">₹500 / घंटा से</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="portfolio">
+    <div class="wrap"><div class="section-head"><h2>Our <span class="gold">Work</span></h2><p>अपने फोटो, वीडियो और डिज़ाइन के नमूने यहाँ जोड़ें।</p></div><div class="gallery-note">यहाँ अपनी best photos, wedding albums, video thumbnails, flex designs और advertising work की तस्वीरें जोड़ें।</div></div>
+  </section>
+
+  <section class="contact" id="contact">
+    <div class="wrap"><div class="section-head"><h2>संपर्क <span class="gold">करें</span></h2><p>अपने काम की जानकारी और बुकिंग के लिए संपर्क करें।</p></div>
+      <div class="contact-grid">
+        <div class="contact-box"><strong>WhatsApp / Call 1</strong><a href="tel:8878320078">8878320078</a></div>
+        <div class="contact-box"><strong>WhatsApp / Call 2</strong><a href="tel:7225921909">7225921909</a></div>
+        <div class="contact-box"><strong>हमारा पता</strong><span>Sarswati Shishu Mandir के पास,<br>Pendarakapa Road, Mungeli (C.G.)</span></div>
+      </div>
+      <div class="actions"><a class="btn primary" href="https://wa.me/918878320078" target="_blank" rel="noopener">WhatsApp Message भेजें</a><a class="btn" href="tel:8878320078">अभी कॉल करें</a></div>
+    </div>
+  </section>
+</main>
+<footer><div class="wrap">© <span id="year">2026</span> Harshika Studio &amp; Printers, Mungeli. All rights reserved.</div></footer>
+<a class="whatsapp" href="https://wa.me/918878320078" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">WhatsApp ↗</a>
+</body>
+</html>
